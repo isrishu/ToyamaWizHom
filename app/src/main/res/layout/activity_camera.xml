@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pnlMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    tools:context="com.toyama.wizhome.CameraActivity"
+    tools:ignore="RtlSymmetry,HardcodedText,RtlHardcoded" >
+
+    <include
+        android:id="@+id/bedroom_static_main_header"
+        layout="@layout/layout_header_green" />
+
+    <EditText
+        android:id="@+id/txtCameraName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Camera Name"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <!-- <Spinner
+        android:id="@+id/cmbRooms"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Spinner
+        android:id="@+id/cmbModels"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" /> -->
+
+    <AutoCompleteTextView
+        android:id="@+id/cmbRooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:completionThreshold="1"
+        android:ems="20"
+        android:hint="Room Name"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:typeface="monospace" >
+    </AutoCompleteTextView>
+
+    <AutoCompleteTextView
+        android:id="@+id/cmbModels"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:completionThreshold="1"
+        android:ems="20"
+        android:hint="Model"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:typeface="monospace" >
+    </AutoCompleteTextView>
+
+    <Button
+        android:id="@+id/btnSaveCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@color/green"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:text="Save Camera"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+</LinearLayout>

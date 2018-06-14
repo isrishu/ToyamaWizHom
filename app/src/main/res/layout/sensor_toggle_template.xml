@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ToggleButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="55dp"
+    android:layout_height="55dp"
+    android:background="@drawable/toggle_sensor"
+    android:checked="false"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:textOff=""
+    android:textOn="" 
+    android:layout_margin="3dp"/>

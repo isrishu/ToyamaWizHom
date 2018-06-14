@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pnlMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    tools:context="com.toyama.wizhome.ProjectorActivity"
+    tools:ignore="HardcodedText,ContentDescription" >
+
+    <include
+        android:id="@+id/bedroom_static_main_header"
+        layout="@layout/layout_header_green" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/ibtnInput"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/input" />
+
+                <ImageView
+                    android:id="@+id/ibtnMenu"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/menu" />
+
+                <ImageView
+                    android:id="@+id/ibtnPower"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/btn_power" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="KEYSTONE+"
+                android:textColor="@color/green"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/ibtnKeyStoneUp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/btn_up" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/ibtnVolumeDown"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/btn_volume_down" />
+
+                <ImageView
+                    android:id="@+id/ibtnOk"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/btn_check_selected" />
+
+                <ImageView
+                    android:id="@+id/ibtnVolumeUp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/btn_volume_up" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/ibtnKeyStoneDown"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/btn_down" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:text="KEYSTONE-"
+                android:textColor="@color/green"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/ibtnAutoS"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="8dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/autos" />
+
+                    <ImageView
+                        android:id="@+id/ibtnFreeze"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/freeze" />
+                </LinearLayout>
+
+                <ToggleButton
+                    android:id="@+id/togMute"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/toggle_mute"
+                    android:checked="false"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:textOff=""
+                    android:textOn="" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:gravity="center"
+                        android:text="RESIZE+"
+                        android:textColor="@color/green"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/ibtnResizeUp"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginBottom="8dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/btn_up" />
+
+                    <ImageView
+                        android:id="@+id/ibtnResizeDown"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/btn_down" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center"
+                        android:text="RESIZE-"
+                        android:textColor="@color/green"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

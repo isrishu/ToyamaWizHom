@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pnlMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    tools:context=".SettingsActivity"
+    tools:ignore="RtlSymmetry,HardcodedText,RtlHardcoded" >
+
+    <include
+        android:id="@+id/bedroom_static_main_header"
+        layout="@layout/layout_header_green" />
+
+    <Button
+        android:id="@+id/btnRefresh"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:background="@color/transparent"
+        android:text="Refresh (Local)"
+        android:textColor="@color/green"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:background="@color/light_gray" />
+
+    <Button
+        android:id="@+id/btnUsers"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:background="@color/transparent"
+        android:text="Users"
+        android:textColor="@color/green"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:background="@color/light_gray" />
+
+    <Button
+        android:id="@+id/btnVersion"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:background="@color/transparent"
+        android:text="Version"
+        android:textColor="@color/green"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:background="@color/light_gray" />
+
+    <Button
+        android:id="@+id/btnBackup"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:background="@color/transparent"
+        android:text="Backup Data (Remote)"
+        android:textColor="@color/green"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:background="@color/light_gray" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:background="@color/transparent"
+        android:text="Logout"
+        android:textColor="@color/red"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:background="@color/light_gray" />
+
+</LinearLayout>

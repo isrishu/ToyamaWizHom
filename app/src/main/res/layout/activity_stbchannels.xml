@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    tools:context="com.toyama.wizhome.STBChannelsActivity"
+    tools:ignore="RtlSymmetry,HardcodedText,RtlHardcoded" >
+
+    <include
+        android:id="@+id/bedroom_static_main_header"
+        layout="@layout/layout_header_green" />
+
+    <TextView
+        android:id="@+id/lblStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/pnlMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="3dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/black" />
+
+            <RelativeLayout
+                android:id="@+id/pnlMoviesHeader"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@color/transparent"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/imgMoviesToggle"
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@+id/lblSwitchListHeader"
+                    android:layout_margin="5dp"
+                    android:contentDescription="navigation"
+                    android:src="@drawable/btn_up" />
+
+                <TextView
+                    android:id="@+id/lblSwitchListHeader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="14dp"
+                    android:text="Movies"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="3dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/black" />
+            </RelativeLayout>
+
+            <GridLayout
+                android:id="@+id/pnlMovieChannels"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:columnCount="3"
+                android:orientation="horizontal" >
+            </GridLayout>
+
+            <RelativeLayout
+                android:id="@+id/pnlEntertainmentHeader"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@color/transparent"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/imgEntertainmentToggle"
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@+id/lblSwitchListHeader1"
+                    android:layout_margin="5dp"
+                    android:contentDescription="navigation"
+                    android:src="@drawable/btn_down" />
+
+                <TextView
+                    android:id="@+id/lblSwitchListHeader1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="14dp"
+                    android:text="Entertainment"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="3dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/black" />
+            </RelativeLayout>
+
+            <GridLayout
+                android:id="@+id/pnlEntertainmentChannels"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:columnCount="3"
+                android:orientation="horizontal" >
+            </GridLayout>
+
+            <RelativeLayout
+                android:id="@+id/pnlSportsHeader"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@color/transparent"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/imgSportsToggle"
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@+id/lblSwitchListHeader2"
+                    android:layout_margin="5dp"
+                    android:contentDescription="navigation"
+                    android:src="@drawable/btn_down" />
+
+                <TextView
+                    android:id="@+id/lblSwitchListHeader2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="14dp"
+                    android:text="Sports"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="3dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/black" />
+            </RelativeLayout>
+
+            <GridLayout
+                android:id="@+id/pnlSportsChannels"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:columnCount="3"
+                android:orientation="horizontal" >
+            </GridLayout>
+
+            <RelativeLayout
+                android:id="@+id/pnlNewsHeader"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@color/transparent"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/imgNewsToggle"
+                    android:layout_width="50dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@+id/lblSwitchListHeader3"
+                    android:layout_margin="5dp"
+                    android:contentDescription="navigation"
+                    android:src="@drawable/btn_down" />
+
+                <TextView
+                    android:id="@+id/lblSwitchListHeader3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="14dp"
+                    android:text="News"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="3dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/black" />
+            </RelativeLayout>
+
+            <GridLayout
+                android:id="@+id/pnlNewsChannels"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:columnCount="3"
+                android:orientation="horizontal" >
+            </GridLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

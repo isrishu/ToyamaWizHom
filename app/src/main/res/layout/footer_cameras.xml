@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent" >
+
+    <ImageButton
+        android:id="@+id/ibtnNewCamera"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_toStartOf="@+id/ibtnEditCamera"
+        android:layout_toLeftOf="@+id/ibtnEditCamera"
+        android:src="@drawable/btn_new"
+        android:scaleType="fitCenter" />
+    
+    <ImageButton
+        android:id="@+id/ibtnEditCamera"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignTop="@+id/ibtnNewCamera"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_toStartOf="@+id/ibtnDeleteCamera"
+        android:layout_toLeftOf="@+id/ibtnDeleteCamera"
+        android:src="@drawable/btn_edit"
+        android:scaleType="fitCenter" />
+    
+    <ImageButton
+        android:id="@+id/ibtnDeleteCamera"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="false"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/btn_delete"
+        android:scaleType="fitCenter" />
+</RelativeLayout>

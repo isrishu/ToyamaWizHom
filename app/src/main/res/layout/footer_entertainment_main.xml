@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:layout_alignParentBottom="true"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:orientation="horizontal"
+        android:padding="0.5dp" >
+
+        <ImageView
+            android:id="@+id/imgFavorites"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/btn_favourite" />
+
+        <ImageView
+            android:id="@+id/imgNumberPad"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/btn_keypad" />
+
+    </LinearLayout>
+</RelativeLayout>

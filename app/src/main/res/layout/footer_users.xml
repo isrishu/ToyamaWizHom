@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent" >
+
+    <ImageButton
+        android:id="@+id/ibtnNewUser"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_toStartOf="@+id/ibtnEditUser"
+        android:layout_toLeftOf="@+id/ibtnEditUser"
+        android:src="@drawable/btn_new"
+        android:scaleType="fitCenter"
+        android:contentDescription="New User" />
+    
+    <ImageButton
+        android:id="@+id/ibtnEditUser"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignTop="@+id/ibtnNewUser"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_toStartOf="@+id/ibtnDeleteUser"
+        android:layout_toLeftOf="@+id/ibtnDeleteUser"
+        android:src="@drawable/btn_edit"
+        android:scaleType="fitCenter"
+        android:contentDescription="Edit User" />
+    
+    <ImageButton
+        android:id="@+id/ibtnDeleteUser"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/btn_delete"
+        android:scaleType="fitCenter"
+        android:contentDescription="Delete User" />
+</RelativeLayout>

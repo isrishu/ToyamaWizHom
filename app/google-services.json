@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "845304258069",
+    "firebase_url": "https://toyama-wizhom.firebaseio.com",
+    "project_id": "toyama-wizhom",
+    "storage_bucket": "toyama-wizhom.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845304258069:android:de3e3407b0e58e43",
+        "android_client_info": {
+          "package_name": "com.toyama.wizhome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845304258069-7k7mmelnuora2b2msfa56e6aoqhfcuh7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.toyama.wizhome",
+            "certificate_hash": "cb7129f4139e9d820adff5903e697ea7e9368ea7"
+          }
+        },
+        {
+          "client_id": "845304258069-9e7n376d52tdbd0g9us9o2v0sqkkks7q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyEnyYs2JCrvDUm6SC5-TbFleCILErSb0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845304258069-9e7n376d52tdbd0g9us9o2v0sqkkks7q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ToggleButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="55dp"
+    android:layout_height="55dp"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_centerVertical="true"
+    android:layout_margin="3dp"
+    android:background="@drawable/toggle_curtain"
+    android:textOff=""
+    android:textOn="" />

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pnlMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    tools:context=".SceneActivity"
+    tools:ignore="RtlSymmetry,HardcodedText,RtlHardcoded" >
+
+    <include
+        android:id="@+id/bedroom_static_main_header"
+        layout="@layout/layout_header_green" />
+
+    <EditText
+        android:id="@+id/txtSceneName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="46dp"
+        android:layout_marginRight="46dp"
+        android:layout_marginTop="45dp"
+        android:background="@null"
+        android:hint="Scene Name"
+        android:inputType="text"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="@color/green"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnProceed"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="46dp"
+        android:layout_marginRight="46dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_proceed" />
+
+    <Button
+        android:id="@+id/btnSaveScene"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="46dp"
+        android:layout_marginRight="46dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_save_scene" />
+
+</LinearLayout>

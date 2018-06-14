@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">WizHom</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_main">Main Activity</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="title_activity_login">Login to WizHom</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_register"><b>Sign in</b> or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_forgot_password">Recover lost password</string>
+    <string name="login_progress_signing_in">Signing in&#8230;</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+
+    <color name="layoutbgcolor">#000</color>
+
+    <string name="lblRooms">Rooms</string>
+    <string name="lblSecurity">Security</string>
+    <string name="lblPresets">Presets/Scenes</string>
+    <string name="lblSchedules">Schedules</string>
+    <string name="lblMedia">Media</string>
+    <string name="title_activity_rooms_main">THA Rooms</string>
+    <string name="btnHall">Hall</string>
+    <string name="btnBedroom1">Master Bedroom</string>
+    <string name="btnBedroom2">Child Bedroom</string>
+    <string name="btnBedroom3">Guest Bedroom</string>
+    <string name="btnKitchen">Kitchen</string>
+    <string name="btnStudy">Study</string>
+    <string name="btnVerandah">Verandah</string>
+    <string name="title_activity_new_room">NewRoomActivity</string>
+    <string name="title_activity_room">RoomActivity</string>
+    <string name="title_activity_room_view">RoomActivity</string>
+    <string name="title_activity_remote">RemoteActivity</string>
+    <string name="title_activity_security">SecurityActivity</string>
+    <string name="title_activity_presets">PresetsActivity</string>
+    <string name="title_activity_new_preset">NewPresetActivity</string>
+    <string name="title_activity_room_item">RoomItemActivity</string>
+    <string name="title_activity_autom_app">UtilityAcitviy</string>
+    <string name="title_activity_utility_expanded">UtilityExpandedAcitviy</string>
+    <string name="title_activity_autom_appl_item_onoff">AutomApplItemOnOffActivity</string>
+    <string name="title_activity_autom_appl_item_updown">AutomApplItemUpDownActivity</string>
+    <string name="title_activity_preset_main">THA Presets</string>
+    <string name="main_header">FLAT CONTROLS</string>
+    <string name="txt_some_header">Some Text Here</string>
+    <string name="txt_menu_swipe">Swipe Example</string>
+    <string name="txt_menu_masterdetail">Master Detail</string>
+    <string name="txt_menu_CheckList">Check List</string>
+    <string name="txt_some_title">Hotel Havana</string>
+    <string name="txt_some_longtext">Manny, Diego, and Sid embark upon another adventure after their continent is set adrift. Using an iceberg as a ship, they encounter sea creatures and battle pirates as they explore a new world.</string>
+    <string name="txt_some_price">$60</string>
+    <string name="desc"></string>
+    <string name="txt_read_more">READ MORE</string>
+    <string name="lbl_logOut">LogOut</string>
+    <string name="title_activity_control">ControlActivity</string>
+    <string name="title_activity_scenes">ScenesActivity</string>
+    <string name="title_activity_scene_room">SceneRoomActivity</string>
+    <string name="title_activity_scene">SceneActivity</string>
+    <string name="title_activity_schedule">ScheduleActivity</string>
+    <string name="title_activity_sensors">SensorsActivity</string>
+
+    <string-array name="arrSwitchCategories">
+        <item>Light</item>
+        <item>Fan</item>
+        <item>TV</item>
+        <item>AC</item>
+        <item>Fridge</item>
+        <item>Microwave</item>
+        <item>Appliance</item>
+        <item>Washing Machine</item>
+        <item>Music System</item>
+        <item>Game Console</item>
+        <item>Chandelier</item>
+        <item>Geyser</item>
+        <item>Set Top Box</item>
+        <item>Projector</item>
+    </string-array>
+    <string-array name="arrSetTopBoxes">
+        <item>None</item>
+        <item>Airtel</item>
+        <item>DishTV</item>
+        <item>SunDirect</item>
+        <item>TataSky</item>
+        <item>Videocon</item>
+    </string-array>
+
+    <string name="title_activity_climate">Climate Activity</string>
+    <string name="title_activity_schedules">Schedules Activity</string>
+    <string name="title_activity_tv">TV Activity</string>
+    <string name="title_activity_music">Music Activity</string>
+    <string name="title_activity_set_top_box">SetTopBox Activity</string>
+    <string name="title_activity_stbfavorites">STBFavorites Activity</string>
+    <string name="title_activity_channel_number_pad">ChannelNumberPad Activity</string>
+    <string name="title_activity_stbchannels">STBChannels Activity</string>
+    <string name="title_activity_media">MediaActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_gateway_conn_test">GatewayConnTestActivity</string>
+    <string name="title_activity_projector">ProjectorActivity</string>
+    <string name="title_activity_users">UsersActivity</string>
+    <string name="title_activity_cameras">CamerasActivity</string>
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="title_activity_casette_ac">CasetteAC Activity</string>
+    <string name="title_activity_user">UserActivity</string>
+</resources>

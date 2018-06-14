@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pnlMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    tools:context="com.toyama.wizhome.STBFavoritesActivity"
+    tools:ignore="HardcodedText,ContentDescription" >
+
+    <include
+        android:id="@+id/bedroom_static_main_header"
+        layout="@layout/layout_header_green" />
+
+    <TextView
+        android:id="@+id/lblStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:background="@color/black" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="4"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imgStarMovies1"
+            android:layout_width="63dp"
+            android:layout_height="45dp"
+            android:layout_margin="2dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/imgStarMovies2"
+            android:layout_width="63dp"
+            android:layout_height="45dp"
+            android:layout_margin="2dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/imgStarMovies3"
+            android:layout_width="63dp"
+            android:layout_height="45dp"
+            android:layout_margin="2dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/imgStarMovies4"
+            android:layout_width="63dp"
+            android:layout_height="45dp"
+            android:layout_margin="2dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/imgStarMovies5"
+            android:layout_width="63dp"
+            android:layout_height="45dp"
+            android:layout_margin="2dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/imgStarMovies6"
+            android:layout_width="63dp"
+            android:layout_height="45dp"
+            android:layout_margin="2dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/imgStarMovies7"
+            android:layout_width="63dp"
+            android:layout_height="45dp"
+            android:layout_margin="2dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/imgStarMovies8"
+            android:layout_width="63dp"
+            android:layout_height="45dp"
+            android:layout_margin="2dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/imgStarMovies9"
+            android:layout_width="63dp"
+            android:layout_height="45dp"
+            android:layout_margin="2dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/imgStarMovies10"
+            android:layout_width="63dp"
+            android:layout_height="45dp"
+            android:layout_margin="2dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/imgStarMovies11"
+            android:layout_width="63dp"
+            android:layout_height="45dp"
+            android:layout_margin="2dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/imgStarMovies12"
+            android:layout_width="63dp"
+            android:layout_height="45dp"
+            android:layout_margin="2dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/imgStarMovies13"
+            android:layout_width="63dp"
+            android:layout_height="45dp"
+            android:layout_margin="2dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/imgStarMovies14"
+            android:layout_width="63dp"
+            android:layout_height="45dp"
+            android:layout_margin="2dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo" />
+    </GridLayout>
+
+</LinearLayout>

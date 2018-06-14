@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pnlMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    tools:context=".ACActivity"
+    tools:ignore="HardcodedText,ContentDescription" >
+
+    <include
+        android:id="@+id/bedroom_static_main_header"
+        layout="@layout/layout_header_green" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="On/Off"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/green"
+        android:textSize="21sp"
+        android:textStyle="normal"
+        android:typeface="monospace" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/btnOn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="3dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/btn_on" />
+
+        <ImageView
+            android:id="@+id/btnOff"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="3dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/btn_off" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lblRoomTemparature"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/border_temparature"
+        android:gravity="center"
+        android:text="18"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/green"
+        android:textSize="28sp"
+        android:textStyle="normal"
+        android:typeface="monospace" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Temparature (Celsius)"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/green"
+            android:textSize="21sp"
+            android:textStyle="normal"
+            android:typeface="monospace" />
+
+        <ImageView
+            android:id="@+id/btnTemparatureUp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/btn_up" />
+
+        <TextView
+            android:id="@+id/lblSetTemparature"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/border_temparature"
+            android:gravity="center"
+            android:text="18"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/green"
+            android:textSize="28sp"
+            android:textStyle="normal"
+            android:typeface="monospace" />
+
+        <ImageView
+            android:id="@+id/btnTemparatureDown"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/btn_down" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/lblFanSpeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Fan Speed"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/green"
+            android:textSize="21sp"
+            android:textStyle="normal"
+            android:typeface="monospace" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/btnLow"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="3dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/btn_low" />
+
+            <ImageView
+                android:id="@+id/btnMedium"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="7dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/btn_medium" />
+
+            <ImageView
+                android:id="@+id/btnHigh"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="3dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/btn_high" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

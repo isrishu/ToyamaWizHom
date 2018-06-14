@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.toyama.wizhome.MainActivity"
+    tools:ignore="RtlSymmetry,HardcodedText" >
+
+    <include layout="@layout/layout_header_green" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:columnCount="3"
+        android:padding="10dp"
+        android:useDefaultMargins="true" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btnControl"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/controls" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Controls"
+                android:textColor="@color/dark_gray"
+                android:textSize="14sp"
+                android:typeface="monospace" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btnClimate"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/climate" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Climate"
+                android:textColor="@color/dark_gray"
+                android:textSize="14sp"
+                android:typeface="monospace" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btnMedia"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/entertainment" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Media"
+                android:textColor="@color/dark_gray"
+                android:textSize="14sp"
+                android:typeface="monospace" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btnScenes"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/scenes" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Scenes"
+                android:textColor="@color/dark_gray"
+                android:textSize="14sp"
+                android:typeface="monospace" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btnSchedules"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/schedules" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Schedules"
+                android:textColor="@color/dark_gray"
+                android:textSize="14sp"
+                android:typeface="monospace" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btnSecurity"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/security" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Security"
+                android:textColor="@color/dark_gray"
+                android:textSize="14sp"
+                android:typeface="monospace" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btnCameras"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/camera" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Cameras"
+                android:textColor="@color/dark_gray"
+                android:textSize="14sp"
+                android:typeface="monospace" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btnSettings"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/settings" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Settings"
+                android:textColor="@color/dark_gray"
+                android:textSize="14sp"
+                android:typeface="monospace" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btnHelp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/support" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Support"
+                android:textColor="@color/dark_gray"
+                android:textSize="14sp"
+                android:typeface="monospace" />
+        </LinearLayout>
+    </GridLayout>
+
+</LinearLayout>

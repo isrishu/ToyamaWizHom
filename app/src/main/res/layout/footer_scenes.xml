@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent" >
+
+    <ImageButton
+        android:id="@+id/ibtnNewScene"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_toStartOf="@+id/ibtnEditScene"
+        android:layout_toLeftOf="@+id/ibtnEditScene"
+        android:src="@drawable/btn_new"
+        android:scaleType="fitCenter" />
+    
+    <ImageButton
+        android:id="@+id/ibtnEditScene"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignTop="@+id/ibtnNewScene"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_toStartOf="@+id/ibtnDeleteScene"
+        android:layout_toLeftOf="@+id/ibtnDeleteScene"
+        android:src="@drawable/btn_edit"
+        android:scaleType="fitCenter" />
+    
+    <ImageButton
+        android:id="@+id/ibtnDeleteScene"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="false"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_toStartOf="@+id/ibtnMakeSchedule"
+        android:layout_toLeftOf="@+id/ibtnMakeSchedule"
+        android:src="@drawable/btn_delete"
+        android:scaleType="fitCenter" />
+<!-- android:background="@color/transparent" -->
+    <ImageButton
+        android:id="@+id/ibtnMakeSchedule"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/make_schedule"
+        android:scaleType="fitCenter" />
+</RelativeLayout>
